@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+guitar icon - <i class="fa-solid fa-guitar"></i>
+search icon - <i class="fa-solid fa-magnifying-glass"></i>
+user icon - <i class="fa-regular fa-user"></i>
+cart icon - <i class="fa-solid fa-cart-shopping"></i>
+arrow icon - <i class="fa-solid fa-arrow-right"></i>
+star icon - <i class="fa-solid fa-star"></i>
+copyright icon - <i class="fa-regular fa-copyright"></i>
+facebook icon - <i class="fa-brands fa-square-facebook"></i>
+whatsapp icon - <i class="fa-brands fa-square-whatsapp"></i>
+instagram icon - <i class="fa-brands fa-instagram"></i>
+burcer icon - <i class="fa-solid fa-bars"></i>
+X icon - <i class="fa-solid fa-xmark"></i>
+filter icon - <i class="fa-solid fa-filter"></i>
+arrow down - <i class="fa-solid fa-chevron-down"></i>
+arrow left - <i class="fa-solid fa-chevron-left"></i>
+arrow right - <i class="fa-solid fa-chevron-right"></i>
+mail icon - <i class="fa-solid fa-envelope"></i>
+mobile icon - <i class="fa-solid fa-mobile-screen-button"></i>
