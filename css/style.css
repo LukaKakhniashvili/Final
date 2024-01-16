@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* HEADER */
+.fa-bars,
+.fa-xmark {
+    display: none;
+}
+
+.header_home {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 94px;
+    background-color: #012426;
+    align-items: center;
+    position: fixed;
+    width: inherit;
+    max-width: inherit;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fa-bars {
+    color: #05BCCA;
+    font-size: 40px;
+}
+
+.fa-xmark {
+    color: #05BCCA;
+    font-size: 20px;
+    border: 1px solid #05BCCA;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.header_ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 72px;
+}
+
+.header_nav_link {
+    color: #A1C3C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    transition-duration: .3s;
+}
+
+.active {
+    color: #d7d8d8;
+    border-bottom: 1px solid #05BCCA;
+    padding: 3px;
+}
+
+.fa-guitar {
+    font-size: 70px;
+    color: #C46A2B;
+    padding: 16px 0;
+    transition-duration: .3s;
+}
+
+.user_section {
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+
+.fa-magnifying-glass,
+.fa-cart-shopping {
+    font-size: 25px;
+    color: #05BCCA;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.fa-user {
+    font-size: 25px;
+    border-radius: 8px;
+    border: 3px solid #05BCCA;
+    padding: 12px;
+    background-color: #05BCCA;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.fa-cart-shopping {
+    border-radius: 8px;
+    border: 3px solid #05BCCA;
+    padding: 12px;
+}
+
+.no_active:hover {
+    color: #d7d8d8;
+    border-bottom: 1px solid #05BCCA;
+    padding: 3px;
+}
+
+.fa-guitar:hover {
+    color: #dab8a0;
+}
+
+.fa-magnifying-glass:hover,
+.fa-user:hover,
+.fa-cart-shopping:hover {
+    color: #adf3f8;
+}
+
+.fa-user:hover,
+.fa-cart-shopping:hover {
+    background-color: #012426;
+    border-radius: 0;
+}

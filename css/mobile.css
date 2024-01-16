@@ -1,0 +1,55 @@
+@media (max-width: 435px) {
+
+    /* HEADER */
+    .header_home {
+        padding: 28px 8px;
+    }
+
+    .header_nav {
+        position: fixed;
+        top: 138px;
+        left: -100%;
+        background-color: #05BCCA;
+        width: 50%;
+        padding: 25px 0 25px 20px;
+        transition: .5s linear;
+    }
+
+    .header_ul {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .show_icon {
+        left: 0;
+    }
+    .fa-bars {
+        display: block;
+    }
+
+    .header_nav a {
+        color: #C46A2B;
+    }
+
+    .header_nav a:hover {
+        color: #dfb99f;
+    }
+
+    .user_section {
+        column-gap: 16px;
+    }
+
+    .fa-magnifying-glass,
+    .fa-cart-shopping,
+    .fa-user
+     {
+        font-size: 20px;
+        padding: 8px
+    }
+    .fa-guitar {
+        font-size: 50px;
+    }
+    .fa-bars {
+        font-size: 30px
+    }
+
+}
