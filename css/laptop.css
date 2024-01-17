@@ -31,27 +31,17 @@
     .header_nav a:hover {
         color: #dfb99f;
     }
-
-    /* FIGURE */
-    .figure_container {
-        padding: 96px 0;
-    }
-
-
 }
 
-@media (max-width: 875px) {
+@media (max-width: 980px) {
 
-    /* FIGURE */
-
+    /* HOME - FIGURE */
     .figure_container {
         height: 596px;
     }
+
     .home_article {
         width: 330px;
         height: 240px;
-    }
-    .figure_container {
-        padding: 45px 0;
     }
 }

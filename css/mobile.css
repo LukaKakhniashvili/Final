@@ -69,4 +69,17 @@
         width: 32px;
         height: 24px;
     }
+
+    @media (max-width: 400px) {
+
+        /* HOME - FIGURE */
+        .figure_container {
+            height: 330px;
+        }
+
+        .home_article {
+            width: 140px;
+            height: 120px;
+        }
+    }
 }

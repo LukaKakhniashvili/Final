@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,174 @@
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/mobile.css">
 </head>
+
 <body>
-    
+    <div class="container">
+
+        <!-- HEADER -->
+        <header class="header_home">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <nav class="header_nav">
+                <ul class="header_ul">
+                    <li>
+                        <a href="index.html" class="no_active header_nav_link">Home</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" class="no_active header_nav_link">Catalog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="active header_nav_link">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="index.html" class="header_guitar_link">
+                <i class="fa-solid fa-guitar"></i>.
+            </a>
+            <div class="user_section">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </header>
+
+        <section class="contact_section">
+            <div class="contact_content">
+                <h2 class="contact_title">Have a question? Need tech or playing support? Want to connect on social? Do
+                    it here!</h2>
+                <article class="contact_info">
+                    <div class="contact_send_to">
+                        <div class="contact_mail">
+                            <a href="mailto:guitar.center@gmail.com">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="mailto:guitar.center@gmail.com">guitar.center@gmail.com</a>
+                        </div>
+                        <div class="contact_phone">
+                            <a href="tel:+(32)2 56 78 98">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </a>
+                            <a href="tel:+(32)2 56 78 98">+(32)2 56 78 98</a>
+                        </div>
+                    </div>
+                    <a href="https://maps.app.goo.gl/SmxHHRUqWkA9BVDE7" target="_blank">
+                        <img src="images/contact/location.svg" alt="location">
+                    </a>
+                </article>
+                <section class="contact_section2">
+                    <form class="contact_form">
+                        <div class="contact_input_main">
+                            <div class="contact_input_first_stage">
+                                <input type="text" name="name" class="contact_name contact_input" placeholder="Name">
+                                <input type="text" name="email" class="contact_email contact_input" placeholder="Email">
+                            </div>
+                            <textarea name="message" value="MESSAGE" placeholder="Message"
+                                class="contact_message contact_input"></textarea>
+                        </div>
+                        <button type="submit" class="contact_sender">SEND MESSAGE</button>
+                    </form>
+
+                    <div class="map_and_socials">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.4230828932236!2d44.8940599!3d41.7113885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40441271788f43cb%3A0x2686a6e5366d82d2!2s24%20Rustaveli%20St%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1705495971826!5m2!1sen!2sge"
+                            width="286" height="151" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <div class="contact_socials">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="https://www.whatsapp.com" target="_blank">
+                                <i class="fa-brands fa-square-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+        </section>
+
+        <footer>
+            <div class="footer_content">
+                <div class="brands">
+                    <div class="brands"></div>
+                    <h2 class="footer_content_title">Brands</h2>
+                    <nav class="footer_content_nav">
+                        <ul class="footer_content_ul">
+                            <li>
+                                <a href="" class="footer_content_nav_links">Fender</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">Gibson</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">Jockson</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">Ibanez</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="information">
+                    <h2 class="footer_content_title">Information</h2>
+                    <nav class="footer_content_nav">
+                        <ul class="footer_content_ul">
+                            <li>
+                                <a href="" class="footer_content_nav_links">Blog</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">Delivery</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">About us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <address class="contact">
+                    <h2 class="footer_content_title">Contact</h2>
+                    <nav class="footer_content_nav">
+                        <ul class="footer_content_ul">
+                            <li>
+                                <a href="https://maps.app.goo.gl/SmxHHRUqWkA9BVDE7" class="footer_content_nav_links" target="_blank">Tbilisi, str, Rustaveli 24</a>
+                            </li>
+                            <li>
+                                <a href="tel:+(32)2 56 78 98" class="footer_content_nav_links">+(32)2 56 78 98</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer_social_nav">
+                        <ul class="footer_social_ul">
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.whatsapp.com" target="_blank">
+                                    <i class="fa-brands fa-square-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </address>
+            </div>
+            <div class="footer_copyright">
+                <i class="fa-regular fa-copyright"></i>
+                <p class="copyright_text">All right reserved.2025.</p>
+            </div>
+        </footer>
+
+    </div>
 
     <script src="main.js"></script>
 </body>
+
 </html>

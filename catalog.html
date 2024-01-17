@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,464 @@
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/mobile.css">
 </head>
+
 <body>
-    
+    <div class="container">
+
+        <!-- HEADER -->
+        <header class="header_home">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+            <nav class="header_nav">
+                <ul class="header_ul">
+                    <li>
+                        <a href="index.html" class="no_active header_nav_link">Home</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html" class="active header_nav_link">Catalog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="no_active header_nav_link">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="index.html" class="header_guitar_link">
+                <i class="fa-solid fa-guitar"></i>.
+            </a>
+            <div class="user_section">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </header>
+
+        <!-- SECTION 1 -->
+        <section class="guitar_category">
+            <div class="category_buttons">
+                <button class="navigation_buttons btn_noactive">Classical</button>
+                <button class="navigation_buttons btn_noactive">Acoustic</button>
+                <button class="navigation_buttons btn_active">Electric</button>
+                <button class="navigation_buttons btn_noactive">Bass</button>
+            </div>
+        </section>
+
+        <!-- SECTION 2 -->
+        <section class="el_guitars">
+            <div class="filter_and_sort">
+                <div class="filter">
+                    <p class="filter_text">Filter</p>
+                    <i class="fa-solid fa-filter"></i>
+                </div>
+                <div class="sort">
+                    <p class="sort_text">Sort by:</p>
+                    <select name="sort" class="sorting">
+                        <option value="Best_selling">Best selling</option>
+                        <option value="price">Price range</option>
+                        <option value="rating">Rating</option>
+                        <option value="date">Date</option>
+                    </select>
+                </div>
+            </div>
+            <div class="el_guitars_container">
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar1.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar2.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar3.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar4.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar5.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar6.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar7.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar8.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar9.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar10.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar11.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar12.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar13.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar14.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar15.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="guitar_item">
+                    <img src="images/electric/el_guitar16.png" alt="elect guitar">
+                    <div class="guitar_item_content">
+                        <h2 class="guitar_item_title">lorem ipsum</h2>
+                        <div class="guitar_item_reviews">
+                            <div class="guitar_item_reviews_points">
+                                <div class="guitar_item_reviews_points_stars">
+                                    <a href="#" class="fa-solid fa-star star1"></a>
+                                    <a href="#" class="fa-solid fa-star star2"></a>
+                                    <a href="#" class="fa-solid fa-star star3"></a>
+                                    <a href="#" class="fa-solid fa-star star4"></a>
+                                    <a href="#" class="fa-solid fa-star star5"></a>
+                                </div>
+                                <p class="reviews_quantity">4 reviews</p>
+                            </div>
+                            <p class="guitar_items_price">$ 950</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="el_gutars_pages">
+                <button class="previous_btn">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    Previous
+                </button>
+                <span class="pages_number">Page 1 of 5</span>
+                <button class="next_btn">
+                    Next
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer_content">
+                <div class="brands">
+                    <div class="brands"></div>
+                    <h2 class="footer_content_title">Brands</h2>
+                    <nav class="footer_content_nav">
+                        <ul class="footer_content_ul">
+                            <li>
+                                <a href="" class="footer_content_nav_links">Fender</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">Gibson</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">Jockson</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">Ibanez</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="information">
+                    <h2 class="footer_content_title">Information</h2>
+                    <nav class="footer_content_nav">
+                        <ul class="footer_content_ul">
+                            <li>
+                                <a href="" class="footer_content_nav_links">Blog</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">Delivery</a>
+                            </li>
+                            <li>
+                                <a href="" class="footer_content_nav_links">About us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <address class="contact">
+                    <h2 class="footer_content_title">Contact</h2>
+                    <nav class="footer_content_nav">
+                        <ul class="footer_content_ul">
+                            <li>
+                                <a href="https://maps.app.goo.gl/SmxHHRUqWkA9BVDE7" class="footer_content_nav_links" target="_blank">Tbilisi, str, Rustaveli 24</a>
+                            </li>
+                            <li>
+                                <a href="tel:+(32)2 56 78 98" class="footer_content_nav_links">+(32)2 56 78 98</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer_social_nav">
+                        <ul class="footer_social_ul">
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.whatsapp.com" target="_blank">
+                                    <i class="fa-brands fa-square-whatsapp"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </address>
+            </div>
+            <div class="footer_copyright">
+                <i class="fa-regular fa-copyright"></i>
+                <p class="copyright_text">All right reserved.2025.</p>
+            </div>
+        </footer>
+
+    </div>
 
     <script src="main.js"></script>
 </body>
+
 </html>
