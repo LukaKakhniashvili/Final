@@ -19,9 +19,11 @@
         flex-direction: column;
         row-gap: 40px;
     }
+
     .show_icon {
         left: 0;
     }
+
     .fa-bars {
         display: block;
     }
@@ -40,16 +42,31 @@
 
     .fa-magnifying-glass,
     .fa-cart-shopping,
-    .fa-user
-     {
+    .fa-user {
         font-size: 20px;
         padding: 8px
     }
+
     .fa-guitar {
         font-size: 50px;
     }
+
     .fa-bars {
         font-size: 30px
     }
 
+
+    /* SECTION 1 */
+    .section1_content {
+        column-gap: 16px;
+    }
+
+    .section1_title {
+        font-size: 22px;
+    }
+
+    .section1_arrow {
+        width: 32px;
+        height: 24px;
+    }
 }

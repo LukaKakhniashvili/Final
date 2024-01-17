@@ -1,4 +1,5 @@
 @media (max-width: 1025px) {
+
     /* HEADER */
     .header_nav {
         position: fixed;
@@ -14,9 +15,11 @@
         flex-direction: column;
         row-gap: 40px;
     }
+
     .show_icon {
         left: 0;
     }
+
     .fa-bars {
         display: block;
     }
@@ -27,5 +30,28 @@
 
     .header_nav a:hover {
         color: #dfb99f;
+    }
+
+    /* FIGURE */
+    .figure_container {
+        padding: 96px 0;
+    }
+
+
+}
+
+@media (max-width: 875px) {
+
+    /* FIGURE */
+
+    .figure_container {
+        height: 596px;
+    }
+    .home_article {
+        width: 330px;
+        height: 240px;
+    }
+    .figure_container {
+        padding: 45px 0;
     }
 }
