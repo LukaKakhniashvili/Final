@@ -64,9 +64,6 @@
         width: 240px;
         height: 170px;
     }
-}
-
-@media (max-width: 710px) {
 
     /* CATALOG - guitar_category section */
 
@@ -83,6 +80,10 @@
         line-height: 28px;
     }
 
+    .el_guitars {
+        padding: 48px 32px;
+    }
+
     /* FOOTER */
     footer {
         padding-inline: 0;
@@ -93,7 +94,9 @@
         row-gap: 40px;
     }
 
-    .brands, .information, .contact {
+    .brands,
+    .information,
+    .contact {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -101,6 +104,66 @@
 
     .footer_content_ul {
         align-items: center;
+    }
+
+    /* CONTACT - contact_section */
+
+    .contact_section {
+        justify-content: center;
+        align-items: center;
+        padding: 32px 40px;
+        margin-top: 134px;
+    }
+
+    .contact_content {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .contact_send_to {
+        flex-direction: row;
+        column-gap: 24px;
+    }
+
+    .contact_info {
+        column-gap: 24px;
+        padding: 16px 92px;
+    }
+
+    .contact_location {
+        width: 24px;
+        height: 24px;
+    }
+
+    .contact_title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .mail_link,
+    .phone_link {
+        display: none;
+    }
+
+    .contact_section2 {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 48px;
+    }
+
+    .contact_form {
+        width: 100%;
+    }
+
+    .map_and_socials {
+        align-items: center;
+        row-gap: 48px;
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
     }
 }
 
@@ -142,5 +205,23 @@
         padding: 8px;
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .filter_text,
+    .sorting {
+        display: none;
+    }
+
+    .sorting_small {
+        display: block;
+    }
+
+    .el_gutars_pages {
+        display: none;
+    }
+
+    .el_gutars_pages_resp {
+        display: flex;
+        column-gap: 25px;
     }
 }

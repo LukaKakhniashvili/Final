@@ -1,3 +1,10 @@
+@media (max-width: 1251px) {
+
+    .col4 {
+        display: none;
+    }
+}
+
 @media (max-width: 1025px) {
 
     /* HEADER */
@@ -46,6 +53,12 @@
     }
 }
 
+@media (max-width: 933px) {
+    .col3 {
+        display: none;
+    }
+}
+
 @media (max-width: 870px) {
 
     /* FOOTER */
@@ -54,5 +67,11 @@
     } */
     .footer_content {
         column-gap: 149px;
+    }
+}
+
+@media (max-width: 679px) {
+    .col2 {
+        display: none;
     }
 }
