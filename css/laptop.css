@@ -1,3 +1,13 @@
+@media (max-width: 1330px) {
+    .section2_articles {
+        overflow-x: scroll;
+    }
+
+    .section2_most_popular {
+        padding-inline: 32px;
+    }
+}
+
 @media (max-width: 1251px) {
 
     .col4 {
