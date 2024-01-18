@@ -2,7 +2,7 @@
 
     /* HEADER */
     .header_home {
-        padding: 28px 8px;
+        height: 96px;
     }
 
     .header_nav {
@@ -55,8 +55,18 @@
         font-size: 30px
     }
 
+    .header_nav {
+        position: fixed;
+        top: 97px;
+    }
 
-    /* SECTION 1 */
+
+    /* HOME - SECTION 1 */
+
+    .new_collection {
+        margin-top: 96px;
+    }
+
     .section1_content {
         column-gap: 16px;
     }
@@ -70,6 +80,30 @@
         height: 24px;
     }
 
+    /* HOME - section3_subscribe */
+
+    .section3_subscribe {
+        height: 168px;
+    }
+
+    .section3_title {
+        font-size: 24px;
+        line-height: 32px
+    }
+
+    .section3_email {
+        width: 180px;
+    }
+
+    /* .section3_form {
+        width: 320px;
+    } */
+
+    /* CATALOG - guitar_category section */
+    .guitar_category {
+        margin-top: 96px;
+    }
+
     @media (max-width: 400px) {
 
         /* HOME - FIGURE */
@@ -80,6 +114,22 @@
         .home_article {
             width: 140px;
             height: 120px;
+        }
+    }
+
+    @media (max-width: 360px) {
+
+        /* HEADER */
+        .header_home {
+            padding-inline: 8px;
+        }
+
+        .navigation_buttons {
+            width: 75px;
+            height: 30px;
+            padding: 7px;
+            font-size: 14px;
+            line-height: 20px;
         }
     }
 }

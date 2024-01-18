@@ -45,3 +45,14 @@
         height: 240px;
     }
 }
+
+@media (max-width: 870px) {
+
+    /* FOOTER */
+    /* footer {
+        padding: 48px 36px 64px;
+    } */
+    .footer_content {
+        column-gap: 149px;
+    }
+}
