@@ -6,6 +6,11 @@
     .section2_most_popular {
         padding-inline: 32px;
     }
+
+    .section2_items {
+        flex: 1 0 298px;
+    }
+
 }
 
 @media (max-width: 1251px) {

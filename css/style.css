@@ -310,6 +310,9 @@
 
 .section2_items img {
     width: 100%;
+    height: 290px;
+    object-fit: cover;
+
 }
 
 
@@ -712,6 +715,13 @@ footer {
     color: #fff;
     transition-duration: .3s;
     cursor: pointer;
+    flex: 1 1 298px;
+}
+
+.guitar_item img {
+    width: 100%;
+    height: 298px;
+    object-fit: cover;
 }
 
 .guitar_item_content {
@@ -737,7 +747,8 @@ footer {
 }
 
 .home_reviews {
-    column-gap: 70px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .guitar_item_reviews_points_stars {
@@ -748,7 +759,7 @@ footer {
 
 .guitar_item_reviews {
     display: flex;
-    column-gap: 73px;
+    justify-content: space-between;
 }
 
 .reviews_quantity {
